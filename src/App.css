@@ -1,0 +1,104 @@
+.App {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.PokemonList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0px 10px;
+  
+}
+
+.Card {
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Card img {
+  flex: 1 0;
+}
+
+.Card span {
+  text-align: center;
+  font-size: 12pt;
+  color: #ffffff;
+}
+
+.Barra {
+  color: rgb(0, 0, 0);
+  display: flex;
+  font-weight: bolder;
+  justify-content: space-around;
+}
+.ImagemPoke {
+  margin: 2%;
+}
+
+.ImagemPoke img {
+  height: 25px;
+}
+.WelcomePokeAPI {
+  font-size: 11pt;
+  font-weight: bold;
+}
+/* Configurando o Type */
+
+.PokemonType {
+ 
+  font-size: 13pt;
+  font-weight: bolder;
+  padding:10px;
+}
+.PokemonTypes {
+
+  position:absolute;
+  padding-left: 15%;
+  top:10%;      
+
+}
+
+.PokemonMove {
+
+  font-size: 10pt;
+  padding-left:3%;
+  font-weight:initial;
+  border-radius: 10px;
+  width: 280px;
+  background-color: rgb(242, 242, 242);
+  margin:1%;
+  position: relative;
+  top: 10%;
+ 
+}
+
+/* Configuranção do Modal */
+
+.ModalClose {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  padding: 10px;
+  border: 1px rgb(0, 0, 0) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  
+}
+
+.ModalClose:hover {
+  cursor: pointer;
+  
+}
+
